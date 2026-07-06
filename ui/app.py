@@ -1,10 +1,14 @@
+import requests
 import streamlit as st
 
 st.title("RAGnosis AI")
 
-query = st.text_input("Enter your question")
+query = st.text_input("Question")
 
 if st.button("Ask"):
-    st.success("Placeholder response")
-    st.write("You asked:")
-    st.write(query)
+
+    response = requests.get(
+        "http://localhost:8000/"
+    )
+
+    st.write(response.json())
