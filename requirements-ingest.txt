@@ -1,1 +1,5 @@
-python-dotenv
+pymupdf>=1.24
+sentence-transformers>=2.7
+chromadb>=0.5
+tqdm>=4.66
+python-dotenv>=1.0
