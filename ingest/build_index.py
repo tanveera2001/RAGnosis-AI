@@ -66,8 +66,9 @@ def build_index():
         for chunk in batch:
 
             metadatas.append({
-                "page": chunk["page"],
-                "section": chunk["section"]
+                "manual": chunk["manual"],
+        "page": chunk["page"],
+        "section": chunk["section"]
             })
 
         store.add_documents(
