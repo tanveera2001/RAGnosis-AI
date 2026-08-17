@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+import re
 
 from openai import OpenAI
 
@@ -10,11 +11,31 @@ from rag.config import (
 )
 
 
+# ============================================================
+# Citation Model
+# ============================================================
+
 @dataclass
 class Citation:
     manual: str
     section: str
     page: int
+
+
+# ============================================================
+# Citation Pattern
+# ============================================================
+
+_CITATION_PATTERN = re.compile(
+    r"""
+    \[
+        Manual:\s*(.+?),
+        \s*Section:\s*(.+?),
+        \s*Page:\s*(\d+)
+    \]
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
 
 
 class Answerer:
@@ -25,6 +46,10 @@ class Answerer:
             api_key=OPENROUTER_API_KEY,
             base_url=OPENROUTER_BASE_URL,
         )
+
+    # ========================================================
+    # Generate Answer
+    # ========================================================
 
     def generate(
         self,
@@ -47,22 +72,43 @@ class Answerer:
             ],
         )
 
-        return response.choices[0].message.content
+        return (
+            response.choices[0]
+            .message.content
+            or ""
+        )
+
+    # ========================================================
+    # Extract Actual LLM Citations
+    # ========================================================
 
     def extract_citations(
         self,
-        chunks: list[dict],
+        answer: str,
     ) -> list[Citation]:
 
         citations = []
+
         seen = set()
 
-        for chunk in chunks:
+        matches = _CITATION_PATTERN.finditer(
+            answer
+        )
+
+        for match in matches:
+
+            manual = match.group(1).strip()
+
+            section = match.group(2).strip()
+
+            page = int(
+                match.group(3)
+            )
 
             key = (
-                chunk.get("manual"),
-                chunk.get("section"),
-                chunk.get("page"),
+                manual,
+                section,
+                page,
             )
 
             if key in seen:
@@ -72,9 +118,9 @@ class Answerer:
 
             citations.append(
                 Citation(
-                    manual=chunk.get("manual", "Unknown"),
-                    section=chunk.get("section", "Unknown"),
-                    page=int(chunk.get("page", 0)),
+                    manual=manual,
+                    section=section,
+                    page=page,
                 )
             )
 
