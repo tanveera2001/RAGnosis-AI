@@ -1,0 +1,2457 @@
+{
+  "summary": {
+    "hit_at_1": 0.6176470588235294,
+    "hit_at_3": 0.7941176470588235,
+    "hit_at_5": 0.8235294117647058,
+    "hit_at_8": 0.8529411764705882,
+    "precision_at_5": 0.2,
+    "recall_at_5": 0.7450980392156863
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "category": "direct_factual",
+      "question": "What is the regulatory model of the Precision 5560?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Service Manual",
+          "page": 1,
+          "distance": 0.481406033039093
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52,
+          "distance": 0.4866722822189331
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 55,
+          "distance": 0.7246527075767517
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 60,
+          "distance": 0.7607935667037964
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 5,
+          "distance": 0.8180688619613647
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 2,
+          "distance": 0.8186768889427185
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 59,
+          "distance": 0.8225241899490356
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.8251556754112244
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q002",
+      "category": "direct_factual",
+      "question": "What is the regulatory type of the Precision 5560?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52,
+          "distance": 0.4660876393318176
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Service Manual",
+          "page": 1,
+          "distance": 0.496950626373291
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 55,
+          "distance": 0.6975696682929993
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 60,
+          "distance": 0.7528358697891235
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Recommended tools",
+          "page": 10,
+          "distance": 0.8056718707084656
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.8130743503570557
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 59,
+          "distance": 0.8211166262626648
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.8275803327560425
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q003",
+      "category": "direct_factual",
+      "question": "Which chapter of the manual covers troubleshooting?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 4
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 5,
+          "distance": 0.6161760091781616
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Service Manual",
+          "page": 1,
+          "distance": 0.6347470283508301
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.6852380037307739
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.6909583210945129
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Check diagnostics",
+          "page": 68,
+          "distance": 0.6988652944564819
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Recommended tools",
+          "page": 10,
+          "distance": 0.714414119720459
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Self-help resources",
+          "page": 75,
+          "distance": 0.715446949005127
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Navigation keys",
+          "page": 53,
+          "distance": 0.7429694533348083
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_5": 0,
+        "hit_at_8": 0,
+        "precision_at_5": 0.0,
+        "recall_at_5": 0.0
+      }
+    },
+    {
+      "id": "Q004",
+      "category": "direct_factual",
+      "question": "Which chapter covers removing and installing components?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 4
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 14,
+          "distance": 0.29497814178466797
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 39,
+          "distance": 0.29497814178466797
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 41,
+          "distance": 0.29497814178466797
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 47,
+          "distance": 0.29497814178466797
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Major components of your system",
+          "page": 11,
+          "distance": 0.37025123834609985
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing and installing components",
+          "page": 10,
+          "distance": 0.4174844026565552
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the I/O board",
+          "page": 37,
+          "distance": 0.46735334396362305
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the base cover",
+          "page": 16,
+          "distance": 0.48735207319259644
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_5": 0,
+        "hit_at_8": 0,
+        "precision_at_5": 0.0,
+        "recall_at_5": 0.0
+      }
+    },
+    {
+      "id": "Q005",
+      "category": "direct_factual",
+      "question": "Where is BIOS recovery covered in the manual?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 4
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 63,
+          "distance": 0.31573086977005005
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery",
+          "page": 71,
+          "distance": 0.3465518355369568
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Rollback BIOS feature",
+          "page": 71,
+          "distance": 0.3640819787979126
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using hard drive",
+          "page": 72,
+          "distance": 0.4379466772079468
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS overview",
+          "page": 53,
+          "distance": 0.4384108781814575
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using USB drive",
+          "page": 72,
+          "distance": 0.47237128019332886
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.4882481098175049
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Clearing BIOS (System Setup) and System passwords",
+          "page": 67,
+          "distance": 0.4994521737098694
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_5": 0,
+        "hit_at_8": 0,
+        "precision_at_5": 0.0,
+        "recall_at_5": 0.0
+      }
+    },
+    {
+      "id": "Q006",
+      "category": "direct_factual",
+      "question": "Which section covers rechargeable Li-ion battery precautions?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 4
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Rechargeable Li-ion battery precautions",
+          "page": 17,
+          "distance": 0.2168060541152954
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Handling swollen rechargeable Li-ion batteries",
+          "page": 68,
+          "distance": 0.45725423097610474
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Safety precautions",
+          "page": 7,
+          "distance": 0.6133685111999512
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "ESD protection summary",
+          "page": 8,
+          "distance": 0.6509215831756592
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Electrostatic discharge—ESD protection",
+          "page": 7,
+          "distance": 0.6558706760406494
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Transporting sensitive components",
+          "page": 9,
+          "distance": 0.6640132665634155
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the battery",
+          "page": 19,
+          "distance": 0.6904654502868652
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the battery",
+          "page": 18,
+          "distance": 0.7196955680847168
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_5": 0,
+        "hit_at_8": 0,
+        "precision_at_5": 0.0,
+        "recall_at_5": 0.0
+      }
+    },
+    {
+      "id": "Q007",
+      "category": "diagnostic",
+      "question": "How do I perform a Wi-Fi power cycle?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Wi-Fi power cycle",
+          "page": 70
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Wi-Fi power cycle",
+          "page": 70,
+          "distance": 0.2634626626968384
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 61,
+          "distance": 0.5131211280822754
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 45,
+          "distance": 0.7214210033416748
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Battery",
+          "page": 17,
+          "distance": 0.7446215748786926
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the system board",
+          "page": 43,
+          "distance": 0.7626365423202515
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.7760204076766968
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Real-Time Clock (RTC Reset)",
+          "page": 70,
+          "distance": 0.7788548469543457
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the battery",
+          "page": 19,
+          "distance": 0.7903108596801758
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q008",
+      "category": "diagnostic",
+      "question": "What is M-BIST?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.4011019468307495
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "How to run M-BIST",
+          "page": 73,
+          "distance": 0.5142550468444824
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 74,
+          "distance": 0.7046384811401367
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "How to invoke LCD BIST Test",
+          "page": 73,
+          "distance": 0.7161815166473389
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "LCD Built-in Self Test (BIST)",
+          "page": 73,
+          "distance": 0.726107120513916
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the M.2 2230 solid-state drive",
+          "page": 25,
+          "distance": 0.7954100370407104
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 55,
+          "distance": 0.8337622880935669
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Service Manual",
+          "page": 1,
+          "distance": 0.8355487585067749
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q009",
+      "category": "diagnostic",
+      "question": "How do I run the LCD Built-in Self Test?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "LCD Built-in Self Test (BIST)",
+          "page": 73
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "How to invoke LCD BIST Test",
+          "page": 73,
+          "distance": 0.39069491624832153
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "LCD Built-in Self Test (BIST)",
+          "page": 73,
+          "distance": 0.44829827547073364
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.5115439891815186
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 74,
+          "distance": 0.545405924320221
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Boot Sequence",
+          "page": 54,
+          "distance": 0.5767730474472046
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 62,
+          "distance": 0.6018472909927368
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the display assembly",
+          "page": 38,
+          "distance": 0.6072698831558228
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Check diagnostics",
+          "page": 68,
+          "distance": 0.6136655807495117
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q010",
+      "category": "diagnostic",
+      "question": "How do I run the SupportAssist Pre-Boot System Performance Check?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Running the SupportAssist Pre-Boot System Performance Check",
+          "page": 69
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Dell SupportAssist Pre-boot System Performance",
+          "page": 68,
+          "distance": 0.2853885293006897
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Check diagnostics",
+          "page": 68,
+          "distance": 0.40950095653533936
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Running the SupportAssist Pre-Boot System Performance Check",
+          "page": 69,
+          "distance": 0.47698974609375
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 62,
+          "distance": 0.47948575019836426
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 74,
+          "distance": 0.6194536089897156
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.643450140953064
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 58,
+          "distance": 0.6864241361618042
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 60,
+          "distance": 0.6912164688110352
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q011",
+      "category": "diagnostic",
+      "question": "What are system diagnostic lights used for?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System diagnostic lights",
+          "page": 69
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System diagnostic lights",
+          "page": 69,
+          "distance": 0.5799661874771118
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Check diagnostics",
+          "page": 68,
+          "distance": 0.5977267026901245
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.6186755299568176
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "ESD Field Service kit",
+          "page": 8,
+          "distance": 0.6552520990371704
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 44,
+          "distance": 0.682104229927063
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 62,
+          "distance": 0.6845698356628418
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Electrostatic discharge—ESD protection",
+          "page": 7,
+          "distance": 0.6888814568519592
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "ESD protection summary",
+          "page": 8,
+          "distance": 0.6905463337898254
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q012",
+      "category": "diagnostic",
+      "question": "How do I perform a Real-Time Clock reset?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Real-Time Clock (RTC Reset)",
+          "page": 70
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Real-Time Clock (RTC Reset)",
+          "page": 70,
+          "distance": 0.3118438124656677
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Battery",
+          "page": 17,
+          "distance": 0.45116543769836426
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the system board",
+          "page": 43,
+          "distance": 0.48237740993499756
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the system board",
+          "page": 46,
+          "distance": 0.5176545977592468
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Clearing BIOS (System Setup) and System passwords",
+          "page": 67,
+          "distance": 0.6509721279144287
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Assigning a system setup password",
+          "page": 66,
+          "distance": 0.7267591953277588
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS from the F12 One-Time boot menu",
+          "page": 65,
+          "distance": 0.7428117394447327
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS in Windows",
+          "page": 64,
+          "distance": 0.7479192018508911
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q013",
+      "category": "repair_removal",
+      "question": "How do I remove the base cover?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the base cover",
+          "page": 13
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the base cover",
+          "page": 13,
+          "distance": 0.24878883361816406
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 15,
+          "distance": 0.41542327404022217
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the base cover",
+          "page": 16,
+          "distance": 0.42399275302886963
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the display assembly",
+          "page": 38,
+          "distance": 0.4846274256706238
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the right fan",
+          "page": 28,
+          "distance": 0.4926825761795044
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the left fan",
+          "page": 26,
+          "distance": 0.4940006732940674
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the LED board",
+          "page": 34,
+          "distance": 0.5114599466323853
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the speakers",
+          "page": 32,
+          "distance": 0.5300388336181641
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q014",
+      "category": "repair_removal",
+      "question": "How do I remove the battery?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the battery",
+          "page": 18
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the battery",
+          "page": 18,
+          "distance": 0.4006078243255615
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the battery",
+          "page": 19,
+          "distance": 0.4520028233528137
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the LED board",
+          "page": 34,
+          "distance": 0.49924325942993164
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.5335298776626587
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Flea power release",
+          "page": 71,
+          "distance": 0.5473929643630981
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 15,
+          "distance": 0.5804867148399353
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 45,
+          "distance": 0.5887106657028198
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the display assembly",
+          "page": 38,
+          "distance": 0.5967676639556885
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q015",
+      "category": "repair_removal",
+      "question": "How do I remove the memory?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the memory",
+          "page": 20
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the memory",
+          "page": 20,
+          "distance": 0.2849692106246948
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the memory",
+          "page": 20,
+          "distance": 0.48448383808135986
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.4925875663757324
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the solid-state drive2",
+          "page": 23,
+          "distance": 0.5173197984695435
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the I/O board",
+          "page": 36,
+          "distance": 0.5286369323730469
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the base cover",
+          "page": 13,
+          "distance": 0.5364043116569519
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing and installing components",
+          "page": 10,
+          "distance": 0.5460818409919739
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the solid-state drive1",
+          "page": 21,
+          "distance": 0.5525071620941162
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q016",
+      "category": "repair_removal",
+      "question": "How do I remove the solid-state drive?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the solid-state drive1",
+          "page": 21
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the solid-state drive2",
+          "page": 23,
+          "distance": 0.16247445344924927
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the solid-state drive1",
+          "page": 21,
+          "distance": 0.1661587357521057
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the solid-state drive1",
+          "page": 22,
+          "distance": 0.36194682121276855
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the solid-state drive2",
+          "page": 24,
+          "distance": 0.38697350025177
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the M.2 2230 solid-state drive",
+          "page": 25,
+          "distance": 0.43898868560791016
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.463515043258667
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the I/O board",
+          "page": 36,
+          "distance": 0.5363279581069946
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing and installing components",
+          "page": 10,
+          "distance": 0.566118597984314
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q017",
+      "category": "repair_removal",
+      "question": "How do I remove the left fan?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the left fan",
+          "page": 26
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the left fan",
+          "page": 26,
+          "distance": 0.18173110485076904
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the right fan",
+          "page": 28,
+          "distance": 0.22854328155517578
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the left fan",
+          "page": 27,
+          "distance": 0.3643813133239746
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the I/O board",
+          "page": 36,
+          "distance": 0.402640163898468
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the right fan",
+          "page": 29,
+          "distance": 0.4439321756362915
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.506257951259613
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Heat sink",
+          "page": 30,
+          "distance": 0.5126135349273682
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the heat sink",
+          "page": 30,
+          "distance": 0.5362326502799988
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q018",
+      "category": "repair_removal",
+      "question": "How do I remove the heat sink?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the heat sink",
+          "page": 30
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the heat sink",
+          "page": 30,
+          "distance": 0.23604488372802734
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the heat sink",
+          "page": 31,
+          "distance": 0.406888484954834
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.5411887168884277
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the right fan",
+          "page": 28,
+          "distance": 0.5589171051979065
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the left fan",
+          "page": 26,
+          "distance": 0.5615980625152588
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the I/O board",
+          "page": 36,
+          "distance": 0.564235508441925
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the base cover",
+          "page": 13,
+          "distance": 0.5996454954147339
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the speakers",
+          "page": 32,
+          "distance": 0.6131028532981873
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q019",
+      "category": "repair_removal",
+      "question": "How do I remove the speakers?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the speakers",
+          "page": 32
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the speakers",
+          "page": 32,
+          "distance": 0.22868138551712036
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the speakers",
+          "page": 33,
+          "distance": 0.4381178617477417
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.48607999086380005
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 15,
+          "distance": 0.5247974991798401
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 14,
+          "distance": 0.5636159181594849
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 39,
+          "distance": 0.5636159181594849
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 41,
+          "distance": 0.5636159181594849
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 47,
+          "distance": 0.5636159181594849
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q020",
+      "category": "repair_removal",
+      "question": "How do I remove the system board?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the system board",
+          "page": 43
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the I/O board",
+          "page": 36,
+          "distance": 0.31699705123901367
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the LED board",
+          "page": 34,
+          "distance": 0.3375956416130066
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.3606909513473511
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 4,
+          "distance": 0.37432390451431274
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 44,
+          "distance": 0.38928550481796265
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing and installing components",
+          "page": 10,
+          "distance": 0.4399436116218567
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Major components of your system",
+          "page": 11,
+          "distance": 0.44082385301589966
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the base cover",
+          "page": 13,
+          "distance": 0.4440877437591553
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_5": 0,
+        "hit_at_8": 0,
+        "precision_at_5": 0.0,
+        "recall_at_5": 0.0
+      }
+    },
+    {
+      "id": "Q021",
+      "category": "multi_step",
+      "question": "What should I do if the Precision 5560 shows a BIOS or ROM failure diagnostic light pattern?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System diagnostic lights",
+          "page": 69
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery",
+          "page": 71
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Check diagnostics",
+          "page": 68,
+          "distance": 0.5550096035003662
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52,
+          "distance": 0.5734310746192932
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 74,
+          "distance": 0.6152628660202026
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Running the SupportAssist Pre-Boot System Performance Check",
+          "page": 69,
+          "distance": 0.6226789951324463
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System diagnostic lights",
+          "page": 69,
+          "distance": 0.6236475110054016
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery",
+          "page": 71,
+          "distance": 0.6261692047119141
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Entering BIOS Setup program",
+          "page": 53,
+          "distance": 0.626570463180542
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 5,
+          "distance": 0.6273505687713623
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 0.5
+      }
+    },
+    {
+      "id": "Q022",
+      "category": "multi_step",
+      "question": "How can I diagnose a problem and then perform the appropriate BIOS recovery?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System diagnostic lights",
+          "page": 69
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery",
+          "page": 71
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery",
+          "page": 71,
+          "distance": 0.3600473403930664
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using USB drive",
+          "page": 72,
+          "distance": 0.4216696619987488
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 63,
+          "distance": 0.45160555839538574
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using hard drive",
+          "page": 72,
+          "distance": 0.45175617933273315
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Rollback BIOS feature",
+          "page": 71,
+          "distance": 0.4937132000923157
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS overview",
+          "page": 53,
+          "distance": 0.49383002519607544
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Check diagnostics",
+          "page": 68,
+          "distance": 0.5158780217170715
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Entering BIOS Setup program",
+          "page": 53,
+          "distance": 0.5166069865226746
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 0.5
+      }
+    },
+    {
+      "id": "Q023",
+      "category": "multi_step",
+      "question": "How do I remove a component safely before working inside the computer?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Before working inside your computer",
+          "page": 6
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Safety precautions",
+          "page": 7
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 14,
+          "distance": 0.36682289838790894
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 39,
+          "distance": 0.36682289838790894
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 41,
+          "distance": 0.36682289838790894
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 47,
+          "distance": 0.36682289838790894
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "After working inside your computer",
+          "page": 9,
+          "distance": 0.4012645483016968
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Safety precautions",
+          "page": 7,
+          "distance": 0.40955716371536255
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the I/O board",
+          "page": 36,
+          "distance": 0.46806472539901733
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the LED board",
+          "page": 34,
+          "distance": 0.480049729347229
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "hit_at_5": 0,
+        "hit_at_8": 1,
+        "precision_at_5": 0.0,
+        "recall_at_5": 0.0
+      }
+    },
+    {
+      "id": "Q024",
+      "category": "multi_step",
+      "question": "What should I do before removing the battery?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Before working inside your computer",
+          "page": 6
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the battery",
+          "page": 18
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the battery",
+          "page": 18,
+          "distance": 0.3744041323661804
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the LED board",
+          "page": 34,
+          "distance": 0.46254855394363403
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the battery",
+          "page": 19,
+          "distance": 0.46407949924468994
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Handling swollen rechargeable Li-ion batteries",
+          "page": 68,
+          "distance": 0.5315929651260376
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.5496275424957275
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Rechargeable Li-ion battery precautions",
+          "page": 17,
+          "distance": 0.567221999168396
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Flea power release",
+          "page": 71,
+          "distance": 0.5695673227310181
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Battery",
+          "page": 17,
+          "distance": 0.5906015038490295
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 0.5
+      }
+    },
+    {
+      "id": "Q025",
+      "category": "multi_step",
+      "question": "How should I diagnose an LCD problem using the manual's built-in test?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "LCD Built-in Self Test (BIST)",
+          "page": 73
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System diagnostic lights",
+          "page": 69
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "LCD Built-in Self Test (BIST)",
+          "page": 73,
+          "distance": 0.3437216281890869
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "How to invoke LCD BIST Test",
+          "page": 73,
+          "distance": 0.35446250438690186
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 74,
+          "distance": 0.4656335115432739
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.6147735118865967
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Check diagnostics",
+          "page": 68,
+          "distance": 0.6304842233657837
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the display assembly",
+          "page": 38,
+          "distance": 0.6364127397537231
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Running the SupportAssist Pre-Boot System Performance Check",
+          "page": 69,
+          "distance": 0.6507275700569153
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Boot Sequence",
+          "page": 54,
+          "distance": 0.6947874426841736
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 0.5
+      }
+    },
+    {
+      "id": "Q026",
+      "category": "multi_step",
+      "question": "What is the documented process for diagnosing a system problem and using SupportAssist?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Dell SupportAssist Pre-boot System Performance",
+          "page": 68
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Running the SupportAssist Pre-Boot System Performance Check",
+          "page": 69
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Check diagnostics",
+          "page": 68,
+          "distance": 0.5161442756652832
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Recovering the operating system",
+          "page": 71,
+          "distance": 0.6080029010772705
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Running the SupportAssist Pre-Boot System Performance Check",
+          "page": 69,
+          "distance": 0.6170926094055176
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.6254653930664062
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Dell SupportAssist Pre-boot System Performance",
+          "page": 68,
+          "distance": 0.6351661086082458
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Self-help resources",
+          "page": 75,
+          "distance": 0.7008359432220459
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Assigning a system setup password",
+          "page": 66,
+          "distance": 0.7114298939704895
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.7265794277191162
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.4,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q027",
+      "category": "specifications",
+      "question": "What regulatory model is identified for the Precision 5560?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52,
+          "distance": 0.4608420729637146
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Service Manual",
+          "page": 1,
+          "distance": 0.4875807762145996
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 55,
+          "distance": 0.7149699926376343
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 60,
+          "distance": 0.7550239562988281
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.8146879076957703
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 5,
+          "distance": 0.8160977363586426
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "M-BIST",
+          "page": 73,
+          "distance": 0.8248847723007202
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 59,
+          "distance": 0.8276868462562561
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q028",
+      "category": "specifications",
+      "question": "What regulatory type is identified for the Precision 5560?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Operating system",
+          "page": 52,
+          "distance": 0.44336557388305664
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Service Manual",
+          "page": 1,
+          "distance": 0.5053107738494873
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 55,
+          "distance": 0.6921480894088745
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 60,
+          "distance": 0.7514358162879944
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.7948057055473328
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Recommended tools",
+          "page": 10,
+          "distance": 0.8112629652023315
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 59,
+          "distance": 0.8301886916160583
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 5,
+          "distance": 0.830876350402832
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q029",
+      "category": "specifications",
+      "question": "Which manual chapter contains the System setup options?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.4246748089790344
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Navigation keys",
+          "page": 53,
+          "distance": 0.5499690771102905
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 59,
+          "distance": 0.5535022616386414
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup",
+          "page": 53,
+          "distance": 0.5541543960571289
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 58,
+          "distance": 0.5610463619232178
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System and setup password",
+          "page": 66,
+          "distance": 0.571064829826355
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Assigning a system setup password",
+          "page": 66,
+          "distance": 0.5873141884803772
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.5929457545280457
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q030",
+      "category": "specifications",
+      "question": "Where are the navigation keys for BIOS Setup documented?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Navigation keys",
+          "page": 53
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Navigation keys",
+          "page": 53,
+          "distance": 0.4632543921470642
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup options",
+          "page": 54,
+          "distance": 0.4766594171524048
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS overview",
+          "page": 53,
+          "distance": 0.4828759431838989
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "System setup",
+          "page": 53,
+          "distance": 0.5049635171890259
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Entering BIOS Setup program",
+          "page": 53,
+          "distance": 0.5155595541000366
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Clearing BIOS (System Setup) and System passwords",
+          "page": 67,
+          "distance": 0.5365298986434937
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.5365742444992065
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Boot menu",
+          "page": 53,
+          "distance": 0.5566982626914978
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.2,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q031",
+      "category": "ambiguous",
+      "question": "How do I remove the fan?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the left fan",
+          "page": 26
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the right fan",
+          "page": 28
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the right fan",
+          "page": 28,
+          "distance": 0.26355665922164917
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the left fan",
+          "page": 26,
+          "distance": 0.28579872846603394
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the I/O board",
+          "page": 36,
+          "distance": 0.3816242814064026
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Heat sink",
+          "page": 30,
+          "distance": 0.48140597343444824
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.5036417245864868
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the heat sink",
+          "page": 30,
+          "distance": 0.505018949508667
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the right fan",
+          "page": 29,
+          "distance": 0.5100945234298706
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the left fan",
+          "page": 27,
+          "distance": 0.5242427587509155
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.4,
+        "recall_at_5": 1.0
+      }
+    },
+    {
+      "id": "Q032",
+      "category": "ambiguous",
+      "question": "How do I install the SSD?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the solid-state drive1",
+          "page": 22
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the solid-state drive2",
+          "page": 24
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the M.2 2230 solid-state drive",
+          "page": 25
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 51,
+          "distance": 0.5075407028198242
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the M.2 2230 solid-state drive",
+          "page": 25,
+          "distance": 0.5113136172294617
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the solid-state drive2",
+          "page": 24,
+          "distance": 0.5192760229110718
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.5258582234382629
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the solid-state drive1",
+          "page": 21,
+          "distance": 0.5350714325904846
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the solid-state drive2",
+          "page": 23,
+          "distance": 0.5509698390960693
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Installing the solid-state drive1",
+          "page": 22,
+          "distance": 0.5586293935775757
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the palm-rest and keyboard assembly",
+          "page": 49,
+          "distance": 0.5775226354598999
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 0,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.4,
+        "recall_at_5": 0.6666666666666666
+      }
+    },
+    {
+      "id": "Q033",
+      "category": "ambiguous",
+      "question": "How do I update the BIOS?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS in Windows",
+          "page": 64
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS in Linux and Ubuntu",
+          "page": 64
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS using the USB drive in Windows",
+          "page": 64
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS in Linux and Ubuntu",
+          "page": 64,
+          "distance": 0.3243216872215271
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Entering BIOS Setup program",
+          "page": 53,
+          "distance": 0.4325035810470581
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS overview",
+          "page": 53,
+          "distance": 0.4346441626548767
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS using the USB drive in Windows",
+          "page": 64,
+          "distance": 0.46495968103408813
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using hard drive",
+          "page": 72,
+          "distance": 0.4666900634765625
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS from the F12 One-Time boot menu",
+          "page": 65,
+          "distance": 0.469146728515625
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS in Windows",
+          "page": 64,
+          "distance": 0.481525719165802
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Removing the battery",
+          "page": 18,
+          "distance": 0.48518335819244385
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.4,
+        "recall_at_5": 0.6666666666666666
+      }
+    },
+    {
+      "id": "Q034",
+      "category": "ambiguous",
+      "question": "How do I recover the BIOS?",
+      "expected_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery",
+          "page": 71
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using hard drive",
+          "page": 72
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using USB drive",
+          "page": 72
+        }
+      ],
+      "retrieved_sources": [
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery",
+          "page": 71,
+          "distance": 0.3772837519645691
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using USB drive",
+          "page": 72,
+          "distance": 0.42317408323287964
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS recovery using hard drive",
+          "page": 72,
+          "distance": 0.44825685024261475
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "BIOS overview",
+          "page": 53,
+          "distance": 0.46196162700653076
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Unknown",
+          "page": 63,
+          "distance": 0.46853578090667725
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Entering BIOS Setup program",
+          "page": 53,
+          "distance": 0.49905937910079956
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Clearing BIOS (System Setup) and System passwords",
+          "page": 67,
+          "distance": 0.5094923973083496
+        },
+        {
+          "manual": "prec5560-sm-en-us",
+          "section": "Updating the BIOS in Linux and Ubuntu",
+          "page": 64,
+          "distance": 0.5208042860031128
+        }
+      ],
+      "metrics": {
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "hit_at_5": 1,
+        "hit_at_8": 1,
+        "precision_at_5": 0.6,
+        "recall_at_5": 1.0
+      }
+    }
+  ]
+}
